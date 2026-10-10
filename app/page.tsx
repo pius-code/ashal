@@ -1,6 +1,6 @@
 ﻿/**
  * @file page.tsx
- * @description Main landing page for ASHA assembling Navbar, Hero, WhatIs, Projects, HowItWorks, and Proof.
+ * @description Main landing page for ASHA assembling Navbar, Hero, WhatIs, Projects, HowItWorks, Proof, Waitlist, and Footer.
  */
 
 import Navbar from "@/components/Navbar";
@@ -9,6 +9,8 @@ import WhatIs from "@/components/whatis";
 import Projects from "@/components/projects";
 import HowItWorks from "@/components/howitworks";
 import Proof from "@/components/proof";
+import Waitlist from "@/components/waitlist";
+import Footer from "@/components/footer";
 
 export default function Home() {
   return (
@@ -19,6 +21,8 @@ export default function Home() {
       <Projects />
       <HowItWorks />
       <Proof />
+      <Waitlist />
+      <Footer />
     </main>
   );
 }
