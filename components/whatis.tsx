@@ -8,7 +8,7 @@ import { ArrowDownToLine, Mic, Cpu, Sparkles, ArrowRight, ArrowDown } from "luci
 
 export default function WhatIs() {
   return (
-    <section id="research" className="w-full max-w-6xl mx-auto px-6 py-24 text-black">
+    <section id="about" className="w-full max-w-6xl mx-auto px-6 py-24 text-black">
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
         {/* Left Heading Column */}
         <div className="lg:col-span-5 space-y-4">

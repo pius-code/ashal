@@ -263,7 +263,7 @@ export default function HowItWorks() {
   const current = STEPS[activeStep];
 
   return (
-    <section ref={containerRef} className="relative h-[400vh] bg-[#290701] text-white">
+    <section id="architecture" ref={containerRef} className="relative h-[400vh] bg-[#290701] text-white">
       {/* Sticky Cinema Stage */}
       <div className="sticky top-0 h-screen w-full flex flex-col justify-center px-6 sm:px-12 lg:px-20 overflow-hidden">
         {/* Top Header & Step Tracker */}
